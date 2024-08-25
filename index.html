@@ -1,50 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="./css/style.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
 </head>
 <body>
     <header class="header">
-        <div class="MainContainer_leftContainer">
-            <img class="MainContainer_aluraLogo" src="./img/alura.png" alt="Logo de Alura">
+    </header>
+    <main class="main-container">
+        <div class="main-content">
+            <img class="alura-logo" src="./img/alura.png" alt="Logo de Alura">
+            <h1>Encriptador de Texto</h1>
+            <div class="input-container">
+                <textarea id="textoEntrada" placeholder="Ingrese el texto a encriptar aquí"></textarea>
+                <textarea id="textoSalida" readonly placeholder="El texto encriptado aparecerá aquí"></textarea>
+            </div>
+            <div class="buttons">
+                <button id="encriptarBtn">Encriptar</button>
+                <button id="desencriptarBtn">Desencriptar</button>
+            </div>
         </div>
-    <main class="encriptador">
-        <section class="encriptador__contenido">
-            <h1 class="encriptador__contenido__titulo">
-            <div class="container">
-        <h1>Encriptador de Texto</h1>
-        <textarea id="textoEntrada" placeholder="Ingrese el texto a encriptar aquí"></textarea>
-        <div class="buttons">
-            <button id="encriptarBtn">Encriptar</button>
-            <button id="desencriptarBtn">Desencriptar</button>
-        </div>
-        <textarea id="textoSalida" readonly placeholder="El texto encriptado aparecerá aquí"></textarea>
-
-        </div>
-        </h1>
-        </section>
     </main>
-</body> 
-   <footer class="footer">
-        <p>Desarrollado por Lia Palavecino para Oracle Next Education y Alura Latam</p>
+    <footer class="footer">
         <div class="encriptador__enlaces">
-            <!--    
-            <a href="https://instagram.com/tu-usuario" target="_blank">
-                <img src="img/instagram-icon.png" alt="Instagram" />
-                Instagram
-            </a>
-            -->
             <a href="https://github.com/liapalavecino" target="_blank">
                 <img src="./img/github-icon.png" alt="Icono de Github">
             </a>
         </div>
     </footer>
-
-<script src="./js/app.js"></script>
-
+    <script src="./js/app.js"></script>
+</body>
 </html>

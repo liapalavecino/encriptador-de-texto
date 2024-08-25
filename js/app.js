@@ -44,16 +44,3 @@ function esTextoValido(texto) {
     const regex = /^[a-z\s]*$/; // Solo permite letras minúsculas y espacios
     return regex.test(texto);
 }
-
-function mensajesIniciales() {
-    asignarTextoElemento('h1', 'Encriptador de texto');
-    asignarTextoElemento('p', 'Ingresa texto para encriptar');
-}
-
-function limpiarCaja() {
-    document.querySelector('#palabraUsuario').value = '';
-}
-
-function reiniciarJuego() {
-    // Lógica para reiniciar el juego, si es necesario
-}
