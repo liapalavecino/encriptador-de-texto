@@ -1,3 +1,10 @@
+/* Aplica box-sizing: border-box a todos los elementos y pseudo-elementos */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -45,4 +52,9 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.encriptador__enlaces {
+    display: flex;
+    justify-content: space-between;
 }
