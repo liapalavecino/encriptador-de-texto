@@ -45,16 +45,49 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #806793;
+    color: #ffffff;
     font-size: 16px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #381452;
 }
 
 .encriptador__enlaces {
     display: flex;
     justify-content: space-between;
+}
+
+/*
+.encriptador__enlaces:hover {
+    border: 2px solid #0000FF;
+}
+*/
+
+footer {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-container a {
+    color: #4b4b4b;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-container a img {
+    width: 24px;
+    height: 24px;
 }
