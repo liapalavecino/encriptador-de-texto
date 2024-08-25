@@ -6,8 +6,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #e2e0c6;
     color: #333;
     display: flex;
     justify-content: center;
@@ -16,10 +18,22 @@ body {
     margin: 0;
 }
 
+.leftContainer {
+    width: 12%;
+  }
+  
+.aluraLogo {
+    height: 50px;
+    &:hover {
+      rotate: 360deg;
+      transition: 1s;
+    }
+  }
+
 .container {
     text-align: center;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -59,35 +73,12 @@ button:hover {
     justify-content: space-between;
 }
 
-/*
-.encriptador__enlaces:hover {
-    border: 2px solid #0000FF;
-}
-*/
-
-footer {
-    margin-top: 20px;
-    background-color: #f8f8f8;
-    padding: 10px 0;
+.footer {
+    background-color: #4FD;
+    padding: 24px;
     text-align: center;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer-container a {
-    color: #4b4b4b;
-    text-decoration: none;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.footer-container a img {
-    width: 24px;
-    height: 24px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
